@@ -12,34 +12,67 @@
       href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap"
       rel="stylesheet"
     />
-    
+
     <title>Document</title>
   </head>
   <body>
     <main class="page">
-      <div class="box box-shedow"></div>
-      <div class="box box-gradient"></div>
-      <div class="box box-around"></div>
-      <div class="box box-translate"></div>
-      <div class="box box-hover"></div>
+      <div class="container flex-container">
+        <div class="box box-shedow"></div>
+        <div class="box box-gradient"></div>
+        <div class="box box-around"></div>
+        <div class="box box-translate"></div>
+        <div class="box box-hover"></div>
 
-      <img src="src/106261853_p0.png" alt="" class="img" />
-      <img src="src/84348811_p0.jpg" alt="" class="img" />
+        <img src="src/106261853_p0.png" alt="" class="img" />
+        <img src="src/84348811_p0.jpg" alt="" class="img" />
 
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor
-        eu sapien nec interdum. Donec maximus tincidunt erat. Sed tempor
-        consequat quam, ut tempus leo vulputate eu. Maecenas fermentum leo
-        turpis, laoreet pretium velit fermentum eu. Vestibulum ac ante suscipit,
-        scelerisque neque non, consectetur odio. Vestibulum sit amet libero
-        nisl. Sed feugiat diam at nibh facilisis, sed lobortis arcu molestie.
-        Vestibulum et mauris fringilla, lobortis nisi non, dapibus diam. Cras
-        hendrerit, augue ac mattis consequat, neque nisi convallis sem, at
-        vulputate erat elit eu nulla. Aliquam erat volutpat. Vestibulum
-        convallis laoreet eros vitae vehicula. Integer vulputate mauris in
-        turpis consequat iaculis. Maecenas pellentesque metus id purus tincidunt
-        placerat.
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor
+          eu sapien nec interdum. Donec maximus tincidunt erat. Sed tempor
+          consequat quam, ut tempus leo vulputate eu. Maecenas fermentum leo
+          turpis, laoreet pretium velit fermentum eu. Vestibulum ac ante
+          suscipit, scelerisque neque non, consectetur odio. Vestibulum sit amet
+          libero nisl. Sed feugiat diam at nibh facilisis, sed lobortis arcu
+          molestie. Vestibulum et mauris fringilla, lobortis nisi non, dapibus
+          diam. Cras hendrerit, augue ac mattis consequat, neque nisi convallis
+          sem, at vulputate erat elit eu nulla. Aliquam erat volutpat.
+          Vestibulum convallis laoreet eros vitae vehicula. Integer vulputate
+          mauris in turpis consequat iaculis. Maecenas pellentesque metus id
+          purus tincidunt placerat.
+        </div>
+      </div>
+
+      <div class="containe flex-center">
+        <button id="back">Back</button>
+        <div class="slider">
+          <div class="slider-item">
+            <img src="src/105885811_p0.jpg" alt="Slide 1" class="slider-img" />
+          </div>
+          <div class="slider-item">
+            <img src="src/106261853_p0.png" alt="Slide 2" class="slider-img" />
+          </div>
+          <div class="slider-item">
+            <img src="src/84348811_p0.jpg" alt="Slide 3" class="slider-img" />
+          </div>
+        </div>
+        <button id="next">Next</button>
+      </div>
+
+      <div class="containe flex-center">
+        <div class="gallery">
+          <div class="thumbnails">
+            <img src="src/105885811_p0.jpg" alt="Зображення 1" />
+            <img src="src/106261853_p0.png" alt="Зображення 2" />
+            <img src="src/84348811_p0.jpg" alt="Зображення 3" />
+          </div>
+          <div class="preview">
+            <img src="src/105885811_p0.jpg" alt="Зображення 1" />
+          </div>
+        </div>
       </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
