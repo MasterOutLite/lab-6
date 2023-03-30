@@ -1,0 +1,65 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 60px;
+
+  padding: 60px;
+}
+
+.text {
+  background: #b15a5a;
+  color: #fff;
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  transition: all 1s;
+}
+
+.img {
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.img:hover {
+  position: relative;
+  z-index: 10;
+  scale: 1.5;
+  transform: translate(0px, 100px);
+}
+
+.box-shedow {
+  box-shadow: 0 0 60px brown;
+}
+
+.box-gradient {
+  background: linear-gradient(blue, pink);
+}
+
+.box-around {
+  border-radius: 20px;
+}
+
+.box-translate {
+  transform: translate(0px, 40px);
+}
+
+.box-hover:hover {
+  scale: 2;
+  position: relative;
+  z-index: 10;
+  border-radius: 20px;
+  background: linear-gradient(rgb(48, 171, 175), rgb(214, 79, 102));
+  transform: translate(0px, 100px);
+  transition: all 1s;
+}
